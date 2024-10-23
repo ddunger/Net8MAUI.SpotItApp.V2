@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Net8MAUI.SpotItApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Net8MAUI.SpotItApp"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Net8MAUI.SpotItApp">
+
+    <ShellContent
+        Title="Spot It (Dobble) Image Generator"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
